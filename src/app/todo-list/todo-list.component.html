@@ -1,1 +1,4 @@
-<p>todo-list works!</p>
+<button class="btn btn-primary" {click}="onButtonPress()">Add task</button>
+<p *ngFor="let item of taskList">
+{{ item }}
+</p>
