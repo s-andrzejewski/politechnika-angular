@@ -12,14 +12,10 @@ import { BindingTaskComponent } from './binding-task/binding-task.component';
     AppComponent,
     AlertWarningComponent,
     AlertInfoComponent,
-    BindingTaskComponent
+    BindingTaskComponent,
   ],
-  imports: [
-    BrowserModule,
-    NgbModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
